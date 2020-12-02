@@ -7,7 +7,7 @@ public class Message {
     private ContentType Content = null ;
     private String body = " ";
     public enum  ContentType{
-        NEW,ALIVE,ELECTION,OK,LIST,ADD_PEER,VICTORY,REMOVE_PEER
+        NEW,ALIVE,ELECTION,OK,LIST,ADD_PEER,VICTORY
     }
     Message(String message){
         String tmp[] = message.split(",");
