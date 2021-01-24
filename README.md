@@ -24,7 +24,7 @@ The winning process will notify all the other running processes that it is the c
 
 
 ### Main Classes
-1. Peer
+1.Peer
    1. Bind process to the specified port
    2. send and receive messages 
 
@@ -33,10 +33,10 @@ The winning process will notify all the other running processes that it is the c
    2. Decode messages to take actions based on bully algorithms, previously explained
    3. Notify other processes
    4. Has list of peers of other processes in systems to interact with 
-1. Message
+   
+3.Message
    1. a utility class to encapsulate message details
    2. Has an enum for message type
-2.Peer
 ### Built with
 - Java socket programming
 
